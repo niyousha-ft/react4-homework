@@ -1,0 +1,67 @@
+.Search {
+  font-family: arial, sans-serif;
+  border: 1px solid #dadde1;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  color: rgb(135, 135, 135);
+
+  background: linear-gradient(
+    13deg,
+    rgb(237, 249, 196) 19.1%,
+    rgb(183, 251, 246) 53.9%,
+    rgb(165, 230, 246) 92%
+  );
+}
+
+.Search .searchBtn {
+  background-color: rgb(159, 230, 248);
+  border: 1px solid white;
+  color: rgb(8, 8, 123);
+}
+
+.Search .searchBtn :hover {
+  background-color: white;
+}
+
+.Search h1 {
+  font-size: 24px;
+  font-weight: 100;
+  margin: 20px 0 0 0;
+  line-height: 29px;
+}
+
+.Search ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Search li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+
+.Search .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 64px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.Search canvas {
+  margin: 10px auto;
+}
+
+.Search .unit {
+  color: rgb(33, 33, 33);
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}

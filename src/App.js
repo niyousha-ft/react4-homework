@@ -1,15 +1,25 @@
 import React from "react";
 
-import "./App.css";
-
 import Search from "./Search";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Search />
-      </header>
+      <div className="container">
+        <Search defaultCity="Tehran" />
+        <footer>
+          This is open-source in{" "}
+          <a
+            href="https://github.com/niyousha-ft/react4-homework"
+            target="_blank"
+          >
+            <strong>Github</strong>
+          </a>{" "}
+          by <strong> Niyousha Eftekhari</strong>
+        </footer>
+      </div>
     </div>
   );
 }

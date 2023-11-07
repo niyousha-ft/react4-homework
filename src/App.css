@@ -1,25 +1,17 @@
 .App {
-  font-family: sans-serif;
-  background-color: #d1ebf6;
-  border: 1px solid #4b19d3;
-  padding: 20px;
-  font-family: "Roboto", sans-serif;
   max-width: 600px;
-  display: block;
-  margin: 0 auto;
+  margin: 30px auto;
 }
-.deg {
-  font-size: 50px;
-}
-.day {
-  font-size: 20px;
-}
-h1 {
-  font-size: 50px;
-}
-li {
-  list-style: none;
-}
-.Search {
+
+.App footer {
+  font-size: 12px;
+  font-style: italic;
+  margin: 10px 0;
+  color: rgb(8, 8, 123);
   text-align: center;
+  box-shadow: white;
+}
+
+.App a {
+  text-decoration: none;
 }

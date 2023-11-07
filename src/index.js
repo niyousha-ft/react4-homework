@@ -9,16 +9,6 @@ root.render(
   <React.StrictMode>
     <div className="container">
       <App />
-      <footer>
-        This is open-source in{" "}
-        <a
-          href="https://github.com/niyousha-ft/react4-homework"
-          target="_blank"
-        >
-          <strong>Github</strong>
-        </a>{" "}
-        by <strong> Niyousha Eftekhari</strong>
-      </footer>
     </div>
   </React.StrictMode>
 );
