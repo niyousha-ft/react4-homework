@@ -15,3 +15,34 @@ code {
 p {
   font-size: 10px;
 }
+
+.weather-app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.dark-bg {
+  background-color: rgb(18, 18, 107);
+}
+
+.light-bg {
+  background-color: rgb(255, 255, 190);
+}
+.med-bg {
+  background-color: rgb(104, 204, 230);
+}
+footer {
+  font-size: 12px;
+  font-style: italic;
+  margin: 0;
+  color: rgb(8, 8, 123);
+  text-align: center;
+  box-shadow: white;
+}
+
+footer .dark-bg {
+  color: beige;
+}
+a {
+  text-decoration: none;
+}
